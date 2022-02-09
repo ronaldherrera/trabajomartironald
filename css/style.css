@@ -1,1 +1,75 @@
-/* Aquí el CSS */
+/* generales */
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+/* menu */
+
+menu {
+  background-color: black;
+  padding: 20px 20px 20px 20px;
+  margin: 0cm;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
+menu li a {
+  font-weight: 600;
+  text-decoration: none;
+  color: white;
+}
+
+/*body*/
+
+article {
+  padding: 20px 0px 0px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+
+  justify-content: center;
+}
+section {
+  margin: 20px 10px 0px 10px;
+  width: 30%;
+  min-width: 300px;
+}
+section#perfil {
+  text-align: end;
+}
+section#perfil img {
+  border-radius: 50%;
+  width: 150px;
+  border: 10px black solid;
+}
+h1 {
+  margin: 0;
+  font-weight: 900;
+  font-size: 6em;
+}
+h2 {
+  margin: 0px;
+  font-weight: bold;
+}
+p {
+  margin: 0px 0px 20px 0px;
+  font-weight: 300;
+}
+section li {
+  margin: 0px 0px 20px 0px;
+  font-weight: 300;
+}
+
+button a {
+  font-weight: bold;
+  font-size: 1.5em;
+  text-decoration: none;
+  color: white;
+}
+
+button {
+  background-color: rgb(0, 134, 175);
+  border: 0ch;
+  padding: 5px 3em;
+}
